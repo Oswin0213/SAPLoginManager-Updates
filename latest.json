@@ -1,0 +1,15 @@
+{
+  "version": "1.0.2",
+  "notes": "## 更新内容\n\n请查看本次更新的改动。\n\n## 安装说明\n\n下载 `SAP登录管理器_x.x.x_x64-setup.exe` 直接安装或覆盖安装。\n**升级安装不会影响已有配置和激活状态。**",
+  "pub_date": "2026-05-20T05:46:16.998Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lYK1l3bGZuMjFjWTFOY29SWVNvSURQMDFzSU0zOHgvMzM4WGt3cHEvcXQ3dVZKTE40STVjN3J1dnJSYXlBclVSSHF3WCtMdm55alZweWZrc0doNXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MjU1OTc0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4yX3g2NC1zZXR1cC5leGUKdWlXVWtuZHowbzFwQ0Q3QkJ3Tkk1WXF5cXFjbDFYL1k3ZjN2Y0R6KzdPeS9odVVNaTg5VjF6eTZzRmhOR0NsTGFlR3BaVm5kNUZNd2VaL0RmMFE0Qnc9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Tauri/releases/download/v1.0.2/SAPLoginManager_1.0.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lYK1l3bGZuMjFjWTFOY29SWVNvSURQMDFzSU0zOHgvMzM4WGt3cHEvcXQ3dVZKTE40STVjN3J1dnJSYXlBclVSSHF3WCtMdm55alZweWZrc0doNXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MjU1OTc0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4yX3g2NC1zZXR1cC5leGUKdWlXVWtuZHowbzFwQ0Q3QkJ3Tkk1WXF5cXFjbDFYL1k3ZjN2Y0R6KzdPeS9odVVNaTg5VjF6eTZzRmhOR0NsTGFlR3BaVm5kNUZNd2VaL0RmMFE0Qnc9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Tauri/releases/download/v1.0.2/SAPLoginManager_1.0.2_x64-setup.exe"
+    }
+  }
+}
