@@ -1,15 +1,15 @@
 {
-  "version": "1.0.11",
-  "notes": "- 新增：设置界面点击主题色块即时预览效果，取消恢复原主题，保存后正式应用\n- 新增：关于软件页面新增「关注作者」区域，支持一键跳转 B 站主页、展开微信公众号二维码\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-21T04:42:08.923Z",
+  "version": "1.0.12",
+  "notes": "- 修复：多次输入错误密码后，冷却倒计时现在正确实时倒数，时间到后可正常输入密码\n- 修复：重置密码后，设置主密码界面的密码输入框恢复可用状态\n- 修复：右键菜单\"登录\"按钮逻辑修正——有勾选连接时触发批量登录，无勾选时登录当前连接\n- 修复：购买激活码界面的个人微信二维码恢复正常显示（之前被公众号二维码替换）\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-21T07:23:03.734Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0V3Vk1LOERET29VNndQbUw5bk93WkZhUFViZ29ZVE43ZjI4ODdkTEp5N3V0bEhWQ3R1TlFleEtvSmFoY1h3NEhmY1cxZnhzWU9vVG1Tc0YzRUxnQ2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MzM4NTI1CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xMV94NjQtc2V0dXAuZXhlClFadU41NkpScU5ZSUZleENKMXpDUkkyRlNncU5BanFuaGZBbE5KNHozMGo0Y3dnL2ZFdk9vWVlkdnRIWGx0VUNZWmlvb25jRmh6MzBBSzNVQlY2U0FRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.11/SAPLoginManager_1.0.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0N1VDFvVTVhMi9qejJ1cU5HSUEvS2hlQ0dpLytRUWVUSXREd2RnbDh5SERFOExHZjVMdi9Wckl2akNGN1MxOFFlT3RwR2NTT2k2NTZyNGsrRDltWWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MzQ4MTc5CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xMl94NjQtc2V0dXAuZXhlCnJ1aXpGeWVoYStRY1l4Mm56MUZLdnlvN2NWZFB6Slg0N2JyNTlyRmFSc3NLQ0dtSEZrS2g5Y1VyMEtINVRtVGNKRnU0VVRYRWQ4cERYTytVYktWT0NRPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.12/SAPLoginManager_1.0.12_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0V3Vk1LOERET29VNndQbUw5bk93WkZhUFViZ29ZVE43ZjI4ODdkTEp5N3V0bEhWQ3R1TlFleEtvSmFoY1h3NEhmY1cxZnhzWU9vVG1Tc0YzRUxnQ2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MzM4NTI1CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xMV94NjQtc2V0dXAuZXhlClFadU41NkpScU5ZSUZleENKMXpDUkkyRlNncU5BanFuaGZBbE5KNHozMGo0Y3dnL2ZFdk9vWVlkdnRIWGx0VUNZWmlvb25jRmh6MzBBSzNVQlY2U0FRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.11/SAPLoginManager_1.0.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0N1VDFvVTVhMi9qejJ1cU5HSUEvS2hlQ0dpLytRUWVUSXREd2RnbDh5SERFOExHZjVMdi9Wckl2akNGN1MxOFFlT3RwR2NTT2k2NTZyNGsrRDltWWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MzQ4MTc5CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xMl94NjQtc2V0dXAuZXhlCnJ1aXpGeWVoYStRY1l4Mm56MUZLdnlvN2NWZFB6Slg0N2JyNTlyRmFSc3NLQ0dtSEZrS2g5Y1VyMEtINVRtVGNKRnU0VVRYRWQ4cERYTytVYktWT0NRPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.12/SAPLoginManager_1.0.12_x64-setup.exe"
     }
   }
 }
