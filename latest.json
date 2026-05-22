@@ -1,15 +1,15 @@
 {
-  "version": "1.0.15",
-  "notes": "- 优化：软件默认主题改为「森林绿」（浅色）和「墨绿」（深色）\n- 优化：设置界面主题排序同步调整，森林绿/墨绿置顶\n- 优化：主题「默认蓝」更名为「天蓝」\n- 优化：应用图标、安装图标、系统托盘图标全部换为绿色版\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-22T07:33:11.296Z",
+  "version": "1.0.16",
+  "notes": "- 新增：试用期剩余不足 3 天时，底部状态栏显示红色加粗提示\n- 新增：解锁后首次进入，若试用即将到期或已过期，自动弹出提示对话框\n- 新增：试用已过期时，每次尝试登录都会弹出提示，引导购买激活\n- 优化：软件授权界面精简文本，试用状态图标移至提示框右侧（与复制按钮对称）\n- 优化：点击连接只产生高亮阴影，不再自动勾选复选框；复选框仅通过点击自身触发\n- 优化：点击连接时，所在分组不再高亮；点击分组/连接/空白区域，高亮状态互斥切换\n- 优化：右键上下文菜单位置向右偏移，减少遮挡\n- 优化：系统托盘菜单\"显示窗口\"改为\"显示\"\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-22T09:43:35.208Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0V6dnhaMUQvQ2FPYVhONEJoRjVTcE43Vmx0aTZrMG5rV0Y5Y3lVNkJQR0Qrd2IyQllLR3p2d293K2ZRYXZGZU56d09IeGVBNnUxR1FiSW9oM2pmd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDM1MTg4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xNV94NjQtc2V0dXAuZXhlCmJVME02MHNESjZqd2ViWTZhQllXdlE2ZzVWUTZPU3lBUjlGL1lPUGdVdFVyTHV0blBVL3JNNlRrR2ZvdS9aSEtBbWdsUmxBemFTb0ZEeXV0b2NYd0FRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.15/SAPLoginManager_1.0.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0sxZTNhcmFCQ2J5VXAzV1ZZOW5ERWdJam1KbzV6NFFSSmsyVFFTR1NwVHd0UUFBMFk4SVdmYnp2SWppcUl1UXREQUkrVXVDQmFmMThOQ3VTSElRNFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzMDEyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xNl94NjQtc2V0dXAuZXhlCjhIR2xySDFaaHBhZDF3SEVkM1cvTzdaaWxveENpL2NCTW5pWFZSdWhxdUd4bkJRQWVuVHVaQlA3SmJuVGFzQ1NxWWZyYXZoSFM4RW5VN2pUbGRrWUFBPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.16/SAPLoginManager_1.0.16_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0V6dnhaMUQvQ2FPYVhONEJoRjVTcE43Vmx0aTZrMG5rV0Y5Y3lVNkJQR0Qrd2IyQllLR3p2d293K2ZRYXZGZU56d09IeGVBNnUxR1FiSW9oM2pmd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDM1MTg4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xNV94NjQtc2V0dXAuZXhlCmJVME02MHNESjZqd2ViWTZhQllXdlE2ZzVWUTZPU3lBUjlGL1lPUGdVdFVyTHV0blBVL3JNNlRrR2ZvdS9aSEtBbWdsUmxBemFTb0ZEeXV0b2NYd0FRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.15/SAPLoginManager_1.0.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0sxZTNhcmFCQ2J5VXAzV1ZZOW5ERWdJam1KbzV6NFFSSmsyVFFTR1NwVHd0UUFBMFk4SVdmYnp2SWppcUl1UXREQUkrVXVDQmFmMThOQ3VTSElRNFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzMDEyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMC4xNl94NjQtc2V0dXAuZXhlCjhIR2xySDFaaHBhZDF3SEVkM1cvTzdaaWxveENpL2NCTW5pWFZSdWhxdUd4bkJRQWVuVHVaQlA3SmJuVGFzQ1NxWWZyYXZoSFM4RW5VN2pUbGRrWUFBPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.0.16/SAPLoginManager_1.0.16_x64-setup.exe"
     }
   }
 }
