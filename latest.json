@@ -1,15 +1,15 @@
 {
-  "version": "1.1.1",
-  "notes": "- 优化：购买激活码界面改为扫码付款，支持微信支付和支付宝两种收款码\n- 优化：新增「作者微信」标签，付款后可直接扫码联系作者发送截图和机器码\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-24T15:29:07.125Z",
+  "version": "1.1.2",
+  "notes": "- 修复：跨设备导入时 SAP 登录密码未导入的问题（目标设备无凭据文件时静默跳过）\n- 修复：窗口最小化后，快捷键和托盘菜单无法恢复窗口\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-24T15:48:05.574Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa1B5K1g0RDk2RGhneG8xUHI2aEc2UjBtM2JpSmpBdGRCVXFGQ0JRaHRiaHNzcGYrSmdHSUdwQXdpdi9kN3Q0emM1cVBCSDNucW9KdGZ1S1JBSnVGYlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjM2NTQzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xX3g2NC1zZXR1cC5leGUKSCt2b1hWQUIvdTN6OWVxanBvblBjQXhaRkd0VFFSQWh4eGwrNzg2Ni9sRFRzMmVxVlE5c2ZFZmYyQ29YaGI3MEtrUC9nNFpWZStWUXNvb205OTRkQ2c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.1/SAPLoginManager_1.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0RUUVNGaDVkdUZzM3EzQXNPaTgzOXdNNkF3Vkc3ODF0UXZzV2ZaMnk2eEgvUklTZGV6YUpvVlNibXhESHJKSTk1a0J2cWtDb0dDZnkzOEZCOTRyRlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjM3NjgxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4yX3g2NC1zZXR1cC5leGUKN0RBQ09TbTY4dC96bUNOVGs0bDJvcVVHYnY5SytmTERWNmorTlc0OGp5Nmt2WXNWcG1FaVY3UlRXTDBmcEM2V3F2Z3Z1UTl2WDFSaUszK1I4T2pRRFE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.2/SAPLoginManager_1.1.2_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa1B5K1g0RDk2RGhneG8xUHI2aEc2UjBtM2JpSmpBdGRCVXFGQ0JRaHRiaHNzcGYrSmdHSUdwQXdpdi9kN3Q0emM1cVBCSDNucW9KdGZ1S1JBSnVGYlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjM2NTQzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xX3g2NC1zZXR1cC5leGUKSCt2b1hWQUIvdTN6OWVxanBvblBjQXhaRkd0VFFSQWh4eGwrNzg2Ni9sRFRzMmVxVlE5c2ZFZmYyQ29YaGI3MEtrUC9nNFpWZStWUXNvb205OTRkQ2c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.1/SAPLoginManager_1.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0RUUVNGaDVkdUZzM3EzQXNPaTgzOXdNNkF3Vkc3ODF0UXZzV2ZaMnk2eEgvUklTZGV6YUpvVlNibXhESHJKSTk1a0J2cWtDb0dDZnkzOEZCOTRyRlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjM3NjgxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4yX3g2NC1zZXR1cC5leGUKN0RBQ09TbTY4dC96bUNOVGs0bDJvcVVHYnY5SytmTERWNmorTlc0OGp5Nmt2WXNWcG1FaVY3UlRXTDBmcEM2V3F2Z3Z1UTl2WDFSaUszK1I4T2pRRFE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.2/SAPLoginManager_1.1.2_x64-setup.exe"
     }
   }
 }
