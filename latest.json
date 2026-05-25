@@ -1,15 +1,15 @@
 {
-  "version": "1.1.4",
-  "notes": "- 修复：跨设备导入时 SAP 登录密码仍无法正常使用的问题（密码字段未用新设备的密钥重新加密，登录时密码为空）\n- 优化：关于软件页面的哔哩哔哩链接更新为作者主页\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-25T02:36:28.390Z",
+  "version": "1.1.5",
+  "notes": "- 优化：自动更新检测增加 Gitee 国内镜像，国内用户检查和下载更新明显更快\n- 优化：保留 GitHub 作为备用更新源，Gitee 不可用时自动回退\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-25T03:11:07.963Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0szZmo4OVIyWi8vOHUzdUZ3cUo2Y09pdXcwNmordFJEOVJHb2V6TEJ1eDArMEdPQ0VyNTVFeGZuWDBuVDhBTkdXdDVFU000bHNONUwwdWRRT01WTXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njc2NTg0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS40X3g2NC1zZXR1cC5leGUKTDM1SS9aMGRzbUhzbnNqYW9yeGY3VGc5QXhLaVBsWlBqRnk0cnVhTDlNQkJpYmFmMExpbWlOc1piZjFuUE5MczBHS3hFVVNSc3RkTDdiTVdxeTlQQkE9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.4/SAPLoginManager_1.1.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lrU1hWeEh1ZkxQR0tBUzZtNDhrNVNFWXl5NURnWWFNVDNaZDFVUTdXZFk3ZUhvT0t4L0ExcW02WWZzSEFid0tEMktkSGdhbjdCakt3NHlCTi90MHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njc4NjY0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS41X3g2NC1zZXR1cC5leGUKRjBqeW4wOWJVWmxpU2lBaTRLVU0rVi9Yc2grT0lYb3FEZDFmNzZteVA1ejEvZDJoUHZCL2E1dklFZ2R1QVIxemVJSmtEUHIzVk5na2ZIVlJqRDQxQVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.5/SAPLoginManager_1.1.5_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0szZmo4OVIyWi8vOHUzdUZ3cUo2Y09pdXcwNmordFJEOVJHb2V6TEJ1eDArMEdPQ0VyNTVFeGZuWDBuVDhBTkdXdDVFU000bHNONUwwdWRRT01WTXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njc2NTg0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS40X3g2NC1zZXR1cC5leGUKTDM1SS9aMGRzbUhzbnNqYW9yeGY3VGc5QXhLaVBsWlBqRnk0cnVhTDlNQkJpYmFmMExpbWlOc1piZjFuUE5MczBHS3hFVVNSc3RkTDdiTVdxeTlQQkE9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.4/SAPLoginManager_1.1.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lrU1hWeEh1ZkxQR0tBUzZtNDhrNVNFWXl5NURnWWFNVDNaZDFVUTdXZFk3ZUhvT0t4L0ExcW02WWZzSEFid0tEMktkSGdhbjdCakt3NHlCTi90MHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njc4NjY0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS41X3g2NC1zZXR1cC5leGUKRjBqeW4wOWJVWmxpU2lBaTRLVU0rVi9Yc2grT0lYb3FEZDFmNzZteVA1ejEvZDJoUHZCL2E1dklFZ2R1QVIxemVJSmtEUHIzVk5na2ZIVlJqRDQxQVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.5/SAPLoginManager_1.1.5_x64-setup.exe"
     }
   }
 }
