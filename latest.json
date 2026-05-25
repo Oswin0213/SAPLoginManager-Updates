@@ -1,15 +1,15 @@
 {
-  "version": "1.1.8",
-  "notes": "- 修复：从 SAP GUI 8.0 导出后导入到 7.4 机器，连接虽然显示正常但实际登录报错——SAP Router 字符串现在自动补全尾部 `/H/` 终止符\n- 修复：740 导入后 saplogon.ini 的 SncNoSSO/LowSpeedConnection/Utf8Off/ShortcutType 字段使用 SAP Logon 期望的默认值，避免连接配置不规范导致的隐性问题\n- 修复：740 导入后 SapLogonTree.xml 中的 `<Item>` 元素补全 `<Memo>` 子元素，匹配 SAP Logon 的标准格式\n- 修复：Gitee Release 标题中\"登录管理器\"显示为问号的乱码问题（之前 v1.1.7 修复未生效）\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-25T06:26:56.315Z",
+  "version": "1.1.9",
+  "notes": "- 修复：在 SAP GUI 7.4 机器上导出配置时提示\"未检测到 SAP GUI 安装\"，现在正确识别 saplogon.ini 格式\n- 优化：导出\"本机全部 SAP GUI 配置\"模式在 7.4 机器上自动将 saplogon.ini 转换为通用 XML 格式，导入到 8.0 机器无需手动调整\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-25T08:33:50.766Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0gvRlN1ZktGR2Fab0tBM1pwZVp1VG4xbVMvTnhUQm9CTlNyWi82MDExcHE0YUxVMWtNcDlJNnVRSGZQVHdtelNrNFU5WmhJRC9ucmdnUi9zMVluZ2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjkwNDEzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS44X3g2NC1zZXR1cC5leGUKMCtYWUZId0tRbER6aVQwMEhseWt2bEFMVUV6NVowSTBGTGtZY01jRUVmOFBQYU9XNWNVd2xpRWtXS2h5YmNub2ZRL2s5Z3lON3VjRDBya0ZsZm45Qmc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.8/SAPLoginManager_1.1.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa084eUo1ZWNLRUFhd3lWamFtdDFoQkxVVmQ3aXIxV21ibXQ0ZzZXM05jL284M2tHYndHN0NHY3FPeTF2eVdMNDAzcFZjVmg3WWdma1Z0T2IxY283UUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njk4MDI3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS45X3g2NC1zZXR1cC5leGUKQysxUzBHMEpwbTRzV2dpMWZGQTlscEtraXR3Uno5SkFONm9WOUFiWHA0OTlvamdRR1BrZW54SVFmNWpaMzFOZHo5OTQzL0xMM0dZTlhWaytZU3VBQ2c9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.9/SAPLoginManager_1.1.9_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0gvRlN1ZktGR2Fab0tBM1pwZVp1VG4xbVMvTnhUQm9CTlNyWi82MDExcHE0YUxVMWtNcDlJNnVRSGZQVHdtelNrNFU5WmhJRC9ucmdnUi9zMVluZ2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NjkwNDEzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS44X3g2NC1zZXR1cC5leGUKMCtYWUZId0tRbER6aVQwMEhseWt2bEFMVUV6NVowSTBGTGtZY01jRUVmOFBQYU9XNWNVd2xpRWtXS2h5YmNub2ZRL2s5Z3lON3VjRDBya0ZsZm45Qmc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.8/SAPLoginManager_1.1.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa084eUo1ZWNLRUFhd3lWamFtdDFoQkxVVmQ3aXIxV21ibXQ0ZzZXM05jL284M2tHYndHN0NHY3FPeTF2eVdMNDAzcFZjVmg3WWdma1Z0T2IxY283UUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njk4MDI3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS45X3g2NC1zZXR1cC5leGUKQysxUzBHMEpwbTRzV2dpMWZGQTlscEtraXR3Uno5SkFONm9WOUFiWHA0OTlvamdRR1BrZW54SVFmNWpaMzFOZHo5OTQzL0xMM0dZTlhWaytZU3VBQ2c9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.9/SAPLoginManager_1.1.9_x64-setup.exe"
     }
   }
 }
