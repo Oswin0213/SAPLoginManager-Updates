@@ -1,15 +1,15 @@
 {
-  "version": "1.1.9",
-  "notes": "- 修复：在 SAP GUI 7.4 机器上导出配置时提示\"未检测到 SAP GUI 安装\"，现在正确识别 saplogon.ini 格式\n- 优化：导出\"本机全部 SAP GUI 配置\"模式在 7.4 机器上自动将 saplogon.ini 转换为通用 XML 格式，导入到 8.0 机器无需手动调整\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-25T08:33:50.766Z",
+  "version": "1.1.10",
+  "notes": "- 新增：连接右键菜单新增\"更改分组\"，可将已勾选连接批量移入现有分组或新建分组\n- 优化：右键\"导出\"复制的内容改为格式化 JSON，便于阅读和手动调整\n- 优化：设置项\"登录后隐藏窗口\"默认改为开启\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-05-25T10:00:07.054Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa084eUo1ZWNLRUFhd3lWamFtdDFoQkxVVmQ3aXIxV21ibXQ0ZzZXM05jL284M2tHYndHN0NHY3FPeTF2eVdMNDAzcFZjVmg3WWdma1Z0T2IxY283UUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njk4MDI3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS45X3g2NC1zZXR1cC5leGUKQysxUzBHMEpwbTRzV2dpMWZGQTlscEtraXR3Uno5SkFONm9WOUFiWHA0OTlvamdRR1BrZW54SVFmNWpaMzFOZHo5OTQzL0xMM0dZTlhWaytZU3VBQ2c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.9/SAPLoginManager_1.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lJVXNGcFRKNVFsN0hONlY2UDFKQ1VIeWp3QmxGMzc2VjhyV0x4VmhrcU5RdVNwaGpwMjZGTE1JelB5VXlUOTJmbWR1ckNZSnVVZGtnT3NoaHduOEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NzAzMjAzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xMF94NjQtc2V0dXAuZXhlCk94VW4xekRTR0FFNGtaaFN5WU1WNTJvV0NRK1VnYWF1d1dKMm9VK0EyalBvRko3ZEVpc2EwRG5paHpCOXBiamhwS0tJaFYrQzJFNzJad2Zvd25VOUN3PT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.10/SAPLoginManager_1.1.10_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa084eUo1ZWNLRUFhd3lWamFtdDFoQkxVVmQ3aXIxV21ibXQ0ZzZXM05jL284M2tHYndHN0NHY3FPeTF2eVdMNDAzcFZjVmg3WWdma1Z0T2IxY283UUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5Njk4MDI3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS45X3g2NC1zZXR1cC5leGUKQysxUzBHMEpwbTRzV2dpMWZGQTlscEtraXR3Uno5SkFONm9WOUFiWHA0OTlvamdRR1BrZW54SVFmNWpaMzFOZHo5OTQzL0xMM0dZTlhWaytZU3VBQ2c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.9/SAPLoginManager_1.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0lJVXNGcFRKNVFsN0hONlY2UDFKQ1VIeWp3QmxGMzc2VjhyV0x4VmhrcU5RdVNwaGpwMjZGTE1JelB5VXlUOTJmbWR1ckNZSnVVZGtnT3NoaHduOEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NzAzMjAzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xMF94NjQtc2V0dXAuZXhlCk94VW4xekRTR0FFNGtaaFN5WU1WNTJvV0NRK1VnYWF1d1dKMm9VK0EyalBvRko3ZEVpc2EwRG5paHpCOXBiamhwS0tJaFYrQzJFNzJad2Zvd25VOUN3PT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.10/SAPLoginManager_1.1.10_x64-setup.exe"
     }
   }
 }
