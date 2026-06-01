@@ -1,15 +1,15 @@
 {
-  "version": "1.1.15",
-  "notes": "- 新增：批量登录实时进度提示，登录过程中状态栏显示当前进度（x/总数）\n- 新增：批量登录间隔可配置（1秒 / 1.5秒 / 2秒 / 3秒 / 5秒，默认 1.5秒），在设置-高级中调整\n- 新增：分组折叠状态持久化，重新打开软件后保留上次的展开/折叠状态\n- 新增：系统托盘右键菜单「登录」子菜单，可直接登录任意连接（最多显示 15 条），锁定后自动清空\n- 新增：托盘图标颜色跟随当前主题主色自动切换\n- 新增：4 个暗色主题——墨绿 / 深空蓝 / 暗琥珀 / 暗玫瑰，与亮色主题一一对应\n- 新增：连接右键菜单「Ping」功能，检测服务器 TCP 连通性并显示延迟；配置了路由串时自动改为 Ping 路由器入口\n- 优化：设置界面改为基础设置（默认展开）和高级设置（默认折叠）两栏，避免内容过长\n- 优化：购买激活码弹窗改为微信支付/支付宝两个收款码 Tab，点击复制机器码后自动切换到微信支付\n- 修复：删除连接后托盘菜单立即更新，不再等待撤销超时\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-05-26T13:34:14.470Z",
+  "version": "1.1.16",
+  "notes": "- 新增：免密模式 — 个人独用设备可在设置中开启，启动时无需输入主密码，自动解锁\n- 新增：凭据复制 — 编辑连接时可从其他连接一键复制登录凭据（客户端/用户名/密码等）\n- 新增：文件夹备份版本管理 — 每次点击「立即备份」生成带时间戳的独立备份，可选择历史备份恢复，最多保留 30 份\n- 新增：购买激活码弹窗支持 1台/3台/10台 三档定价，自动切换对应金额的收款码\n- 修复：修改主密码后 SAP 密码丢失的问题（内层加密密码未随主密码迁移）\n- 优化：「登录后隐藏窗口」设置项移除，统一改为失焦自动隐藏（非置顶状态下失焦 400ms 后隐藏）\n- 优化：安全设置中「免密模式」和「锁定超时」合并为一行，附带悬浮说明图标\n- 优化：设置窗口宽度调整为 420px，滚动条改为细款样式\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-06-01T01:10:05.222Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0tuMzQwRlhJdlNLMTM4Q1BmVHEzV1drOG0yMWo3MzFCblRxbXc3STA3M1ZXZEhFS1p1cXRVU3Y3bGpaV3ByanFaY3FZQUdKd2RBd09ud3hoNHJmSlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODAyNDUwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xNV94NjQtc2V0dXAuZXhlCkE4cmk5VWg5VkhWNHFwNGpyT2w4U1oyVkNsdVJIaVdsS1RWOVVFem5iN09uOGFqMlVWcisyNHduZ0hFbkhVanNUVG1BL0hiV1QybFllbWljM3FTU0JRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.15/SAPLoginManager_1.1.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01iaUtuL1pVdU0xVzV6OG90NWxWOU93ZVgxUFFJTGVaaGVPL0RxV3hJbFZMaVk1YXZRWU90eEs5K3hlc2ZqdFdCUFFvbWh1d3NWTzJZZnhqSUNNMkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc2MjAxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xNl94NjQtc2V0dXAuZXhlClFOK2F3bHg4MW5BRUhLMlJLTkpBYi9jUEpyaHQ1bER2UEFxckxZcUJ4QVRnV1czVllTcitUbE15STcvSU5PN2d3SkYzZzk1SDVMUE81cTkrdi9tdURRPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.16/SAPLoginManager_1.1.16_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0tuMzQwRlhJdlNLMTM4Q1BmVHEzV1drOG0yMWo3MzFCblRxbXc3STA3M1ZXZEhFS1p1cXRVU3Y3bGpaV3ByanFaY3FZQUdKd2RBd09ud3hoNHJmSlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODAyNDUwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xNV94NjQtc2V0dXAuZXhlCkE4cmk5VWg5VkhWNHFwNGpyT2w4U1oyVkNsdVJIaVdsS1RWOVVFem5iN09uOGFqMlVWcisyNHduZ0hFbkhVanNUVG1BL0hiV1QybFllbWljM3FTU0JRPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.15/SAPLoginManager_1.1.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01iaUtuL1pVdU0xVzV6OG90NWxWOU93ZVgxUFFJTGVaaGVPL0RxV3hJbFZMaVk1YXZRWU90eEs5K3hlc2ZqdFdCUFFvbWh1d3NWTzJZZnhqSUNNMkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc2MjAxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xNl94NjQtc2V0dXAuZXhlClFOK2F3bHg4MW5BRUhLMlJLTkpBYi9jUEpyaHQ1bER2UEFxckxZcUJ4QVRnV1czVllTcitUbE15STcvSU5PN2d3SkYzZzk1SDVMUE81cTkrdi9tdURRPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.16/SAPLoginManager_1.1.16_x64-setup.exe"
     }
   }
 }
