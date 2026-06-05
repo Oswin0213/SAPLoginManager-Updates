@@ -1,15 +1,15 @@
 {
-  "version": "1.1.17",
-  "notes": "- 修复：桌面和任务栏图标模糊的问题（重新生成多尺寸高清图标）\n- 优化：路由字符串输入框新增显示/隐藏切换按钮\n- 优化：暂时隐藏连接右键菜单的 Ping 功能\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-06-05T03:52:50.553Z",
+  "version": "1.1.18",
+  "notes": "- 优化：安装包及控制面板「程序和功能」中的发布者显示为「ABAP猿」\n- 维护：完善作者技术文档，新增演示用连接数据\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-06-05T05:28:29.684Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0hrRElpYVFJV0VuNURtRGx6U1hZNElFNGtLeDFnYzNJVkxoNTRuSlVOYy9jemd1RzkyZnhVVlN5b0x4WDgrV1laWksySGFjMGVTamkxWmQxYnliQkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjMxNTY3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xN194NjQtc2V0dXAuZXhlCjlIMGZLbkZtRVZXMklCM21XbW9SN0x5QVBIWW41bTdGZTJSMUtZZ1hXbE5lQnVJdXhlN2JKbmowOUJ5bURLcHBNbUMyTVZKK3F5UWJ0eUYzNlkyWEJ3PT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.17/SAPLoginManager_1.1.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0JxMGphWWRwV1BBaU5QejFjRFA3M2xKOUVxOFhWMzBhNzVScGtZaVJseGIyQ2dvUURBOU9PVGdtM2NKcFZoYWhvNWRvbmk1VzZxQXlLT2hwYmxSK1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjM3MzA2CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xOF94NjQtc2V0dXAuZXhlClpPZWpUUEVldGJ0cHNMQmxWSmtoQ2FXeGNPK0t1MG9SNTdQWWFPNldKVkxZZFNFTElvRWw3VkZndzNVRThRU0pUVnJZbFpyZHB3R3hkYlo5QWdtaUJBPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.18/SAPLoginManager_1.1.18_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0hrRElpYVFJV0VuNURtRGx6U1hZNElFNGtLeDFnYzNJVkxoNTRuSlVOYy9jemd1RzkyZnhVVlN5b0x4WDgrV1laWksySGFjMGVTamkxWmQxYnliQkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjMxNTY3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xN194NjQtc2V0dXAuZXhlCjlIMGZLbkZtRVZXMklCM21XbW9SN0x5QVBIWW41bTdGZTJSMUtZZ1hXbE5lQnVJdXhlN2JKbmowOUJ5bURLcHBNbUMyTVZKK3F5UWJ0eUYzNlkyWEJ3PT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.17/SAPLoginManager_1.1.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0JxMGphWWRwV1BBaU5QejFjRFA3M2xKOUVxOFhWMzBhNzVScGtZaVJseGIyQ2dvUURBOU9PVGdtM2NKcFZoYWhvNWRvbmk1VzZxQXlLT2hwYmxSK1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjM3MzA2CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMS4xOF94NjQtc2V0dXAuZXhlClpPZWpUUEVldGJ0cHNMQmxWSmtoQ2FXeGNPK0t1MG9SNTdQWWFPNldKVkxZZFNFTElvRWw3VkZndzNVRThRU0pUVnJZbFpyZHB3R3hkYlo5QWdtaUJBPT0K",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.1.18/SAPLoginManager_1.1.18_x64-setup.exe"
     }
   }
 }
