@@ -1,15 +1,15 @@
 {
-  "version": "1.2.2",
-  "notes": "- 新增：完整局内快捷键，常用功能全程可键盘操作——新建连接/分组、管理分组、批量登录、搜索、锁定、设置、窗口置顶、切换主题、读取/导出/导入配置、检查更新、折叠/展开全部分组，以及列表上的编辑、复制、删除连接\n- 新增：F10 一键打开标题栏「更多」菜单\n- 优化：屏蔽 Ctrl+Shift+I 误触浏览器调试工具（导入配置快捷键保持不变）\n- 修复：标题栏双击最大化后无法还原的问题，改为禁用双击最大化以保持窗口稳定\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-06-11T03:35:16.217Z",
+  "version": "1.2.3",
+  "notes": "- 新增：读取 SAP GUI 配置支持「手动选择文件」，可导入任意路径的 landscape xml / saplogon.ini（如从其他电脑拷来、或存放在非标准/网络位置的配置）\n- 新增：读取配置界面新增「重新读取本机」按钮，无需关闭窗口重进即可重新检测\n- 优化：SAP 配置自动检测更健壮——读取注册表定位配置文件路径（适配企业把配置放网络共享的情况），并跟随 `<Include>` 合并被引用的全局/网络配置文件\n- 优化：读取配置界面「全选」改为图标 + 悬浮提示，更简洁\n- 优化：检查更新加入超时（8 秒），网络不通时不再长时间卡住，并给出更清晰的网络异常提示\n- 修复：读取配置时实例号维护为「00」却显示成「0」的问题，统一显示为两位\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-06-11T07:47:07.382Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0R0dFkzUFFwTXJwUCswejFIem9BbWJiUjR0elFjb2VuMUMyNjYrT3N6L1dEUjVySWR4TlF1czlibGlXU3d2N2w2a05ZM3BlSTFvZWRjNWxCYUN1ZGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTQ4OTE0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi4yX3g2NC1zZXR1cC5leGUKMlg3N3YzcFAwNExZZUwvVFdrZCtyUzJVOTZvVW1WTVJtTlJLNmlOazYwSnpmamp6QmlweDFCbXJQTlE3bXBzdlI1eEFzb0FqaGtPVDU3Q1JhSUtORGc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.2/SAPLoginManager_1.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0VxU2ZtTWdhN2t0RkVyN2doajlNT1NlUzQ5ZXdOcGduRnBZOUQ3M0c4WDdUcVgvekNxbHZ3OThneFg5b1ZMQkVnUmNQb3ExaXJ1UXFFdzBzWGhhQ3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTY0MDI0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi4zX3g2NC1zZXR1cC5leGUKOUZ6aUxRbkVBR3FvOHQ1eTRhZTNoaXo1aE1QeU02S0dFWHpCYkdpclNtdXJONjAyMzBFdUxJdW9RLy9oUkd3V2dheTFwQmxRMUNmVmxJajVOekE3Q0E9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.3/SAPLoginManager_1.2.3_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0R0dFkzUFFwTXJwUCswejFIem9BbWJiUjR0elFjb2VuMUMyNjYrT3N6L1dEUjVySWR4TlF1czlibGlXU3d2N2w2a05ZM3BlSTFvZWRjNWxCYUN1ZGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTQ4OTE0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi4yX3g2NC1zZXR1cC5leGUKMlg3N3YzcFAwNExZZUwvVFdrZCtyUzJVOTZvVW1WTVJtTlJLNmlOazYwSnpmamp6QmlweDFCbXJQTlE3bXBzdlI1eEFzb0FqaGtPVDU3Q1JhSUtORGc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.2/SAPLoginManager_1.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0VxU2ZtTWdhN2t0RkVyN2doajlNT1NlUzQ5ZXdOcGduRnBZOUQ3M0c4WDdUcVgvekNxbHZ3OThneFg5b1ZMQkVnUmNQb3ExaXJ1UXFFdzBzWGhhQ3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTY0MDI0CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi4zX3g2NC1zZXR1cC5leGUKOUZ6aUxRbkVBR3FvOHQ1eTRhZTNoaXo1aE1QeU02S0dFWHpCYkdpclNtdXJONjAyMzBFdUxJdW9RLy9oUkd3V2dheTFwQmxRMUNmVmxJajVOekE3Q0E9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.3/SAPLoginManager_1.2.3_x64-setup.exe"
     }
   }
 }
