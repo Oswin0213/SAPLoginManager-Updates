@@ -1,15 +1,15 @@
 {
-  "version": "1.2.4",
-  "notes": "- 修复：从文件导入连接并写入本机 SAP Logon 后，SAP Logon 界面不可见、无法登录的问题——写入逻辑现在会同时添加 `Item`（含分组 `Node`），而非仅写 `Service`\n- 新增：从文件导入时，勾选「同时添加到本机 SAP Logon」可将连接一并写入本地 SAP 配置文件\n- 优化：导出配置界面去掉冗余的「来源」路径显示\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-06-12T05:34:53.438Z",
+  "version": "1.2.6",
+  "notes": "- 修复：构建配置文件（tauri.conf.json / Cargo.toml）编码错误，修复 v1.2.5 安装包无法构建的问题\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-06-15T09:14:15.927Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0xlV3FTWXorT2JBTGhwVDdWUUxRNUxvbHlhQ3Flb2RRMDAwNU9INy9yc2ZTTnd6Nm1GenBHUFk1VnFzMmJSWGlzVDRVSElweHdzdTNSaFpUdU9sd1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMjQyNDg3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi40X3g2NC1zZXR1cC5leGUKcnBHMUhSNEZEdjU5aWNOU01KaDYyR1hnM2ZYS1dDUkJncHRIUU9WZFVxTnBCa0pIVC8rby95QXdXZzJPS2E5V041TVo2SzhLTHp6WU5kbGZTa29iQ3c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.4/SAPLoginManager_1.2.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01udndFWG1HaFdmTDNTL2Q0a0tlajRpMGc1VFpFZUVYR3ZLdzQrUEpKRlRFcXlOcUpLYXoyOVpwa3dsT0pOMHkxSFU3RFZYRW92d2pwdmJuNDJqaUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE0ODUyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi42X3g2NC1zZXR1cC5leGUKckZhd2draVhZU0hIZlhNaGJCdFVySzF2N1lZVmtxVVphZnlIY0h1KzRtY0wwQUZnckFoaWkyZXJCNTdZblozaWV1YmYyOUVScURQREJtM3FCcjQ0QlE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.6/SAPLoginManager_1.2.6_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0xlV3FTWXorT2JBTGhwVDdWUUxRNUxvbHlhQ3Flb2RRMDAwNU9INy9yc2ZTTnd6Nm1GenBHUFk1VnFzMmJSWGlzVDRVSElweHdzdTNSaFpUdU9sd1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMjQyNDg3CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi40X3g2NC1zZXR1cC5leGUKcnBHMUhSNEZEdjU5aWNOU01KaDYyR1hnM2ZYS1dDUkJncHRIUU9WZFVxTnBCa0pIVC8rby95QXdXZzJPS2E5V041TVo2SzhLTHp6WU5kbGZTa29iQ3c9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.4/SAPLoginManager_1.2.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01udndFWG1HaFdmTDNTL2Q0a0tlajRpMGc1VFpFZUVYR3ZLdzQrUEpKRlRFcXlOcUpLYXoyOVpwa3dsT0pOMHkxSFU3RFZYRW92d2pwdmJuNDJqaUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE0ODUyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi42X3g2NC1zZXR1cC5leGUKckZhd2draVhZU0hIZlhNaGJCdFVySzF2N1lZVmtxVVphZnlIY0h1KzRtY0wwQUZnckFoaWkyZXJCNTdZblozaWV1YmYyOUVScURQREJtM3FCcjQ0QlE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.6/SAPLoginManager_1.2.6_x64-setup.exe"
     }
   }
 }
