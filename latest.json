@@ -1,15 +1,15 @@
 {
-  "version": "1.2.8",
-  "notes": "- 修复：软件到期后，托盘区快速登录不受许可证限制，仍可绕过限制登录\n- 新增：使用技巧页面提供英文版，语言设置为英文时自动打开英文文档\n- 优化：弹出窗口（设置、添加/编辑连接、读取配置、导入配置、导出配置）在窗口缩小时与边缘保留间距\n- 优化：设置界面滚动条变细\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-06-16T08:46:29.519Z",
+  "version": "1.3.0",
+  "notes": "- 新增：首次设置主密码时显示安全警告图标，提示密码不可找回\n- 新增：无连接时主界面显示操作引导，快速跳转\"添加连接\"、\"读取配置\"和\"使用技巧\"\n- 新增：「使用技巧」页面底部新增微信公众号二维码，点击可展开/收起\n- 优化：主界面空状态文字支持多语言（中/英）随界面语言自动切换\n- 优化：「更多」菜单中\"读取配置\"、\"导入配置\"、\"导出配置\"顺序调整更合理\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-06-16T14:36:02.200Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0FSdkZyZ1VXdVQ2dGR6SmlnbFZtbHFPZU4rTjdoczd0YjkraXJnRlQ2dFdVclAyTWVYdkJuVWRnUFNkb25mRmtUeUZybHh6T2lHYld2MUJKVDhJRkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTk5NTg2CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi44X3g2NC1zZXR1cC5leGUKZk1JMHN0M21Cd2JjK0Z1VmhuaThtQ045bnVkTmsvakZlc3VzNUFXZ2R0bUZYM3JXWXRvSWVtNnBlRDFjakRFdWl4S01MRjF6UjdxaW4vczhSeHU4RGc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.8/SAPLoginManager_1.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0xOdGcwM2t3U01IMm90WlFoYTlBK1dlWnhreGV1RlV3MGhhUFB2Q0o4ZGQ2UXc2ekVnRzlTV1BjQyt2SjlKVHNzWktqeFh2dGRyVlJMWFhYNXd6NFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjIwNTU4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy4wX3g2NC1zZXR1cC5leGUKdGV0V0NGSU9WeExndVczS3ZOb1hxaXc4RnQ0MzkxK05mbVBuWkEySjdyMzdTd0VCT0ZDS0ZVdGhqc21UTjZad21UOHJDaFlqdnVtNFI3dFJWblQzQlE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.0/SAPLoginManager_1.3.0_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0FSdkZyZ1VXdVQ2dGR6SmlnbFZtbHFPZU4rTjdoczd0YjkraXJnRlQ2dFdVclAyTWVYdkJuVWRnUFNkb25mRmtUeUZybHh6T2lHYld2MUJKVDhJRkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTk5NTg2CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMi44X3g2NC1zZXR1cC5leGUKZk1JMHN0M21Cd2JjK0Z1VmhuaThtQ045bnVkTmsvakZlc3VzNUFXZ2R0bUZYM3JXWXRvSWVtNnBlRDFjakRFdWl4S01MRjF6UjdxaW4vczhSeHU4RGc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.2.8/SAPLoginManager_1.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0xOdGcwM2t3U01IMm90WlFoYTlBK1dlWnhreGV1RlV3MGhhUFB2Q0o4ZGQ2UXc2ekVnRzlTV1BjQyt2SjlKVHNzWktqeFh2dGRyVlJMWFhYNXd6NFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjIwNTU4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy4wX3g2NC1zZXR1cC5leGUKdGV0V0NGSU9WeExndVczS3ZOb1hxaXc4RnQ0MzkxK05mbVBuWkEySjdyMzdTd0VCT0ZDS0ZVdGhqc21UTjZad21UOHJDaFlqdnVtNFI3dFJWblQzQlE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.0/SAPLoginManager_1.3.0_x64-setup.exe"
     }
   }
 }
