@@ -1,15 +1,15 @@
 {
-  "version": "1.3.8",
-  "notes": "- 新增：统一搜索窗口（可调大小、常驻隐藏、快捷键唤起）——搜索连接/脚本/VPN，按使用时间排序，Tab/Ctrl+1/2/3 切换页签，回车即登录/执行/连 VPN，支持窗口置顶与拖拽\n- 新增：连接右键 VPN 子菜单——可启动 VPN 程序、打开链接、复制用户/密码，无需进编辑弹窗\n- 新增：分组重命名自动同步 SAP Logon（8.x SAPUILandscape.xml + 7.x SapLogonTree.xml 的 workspace Node 同步改名）\n- 新增：连接弹窗 VPN 页签「程序」字段——支持 VPN 客户端 exe 路径，可一键启动+浏览选择\n- 新增：脚本/VPN 操作记录使用时间，搜索窗口按最近使用排序\n- 新增：搜索快捷键设置移入「唤醒」区，搜索到期同样受许可管控\n- 优化：连接编辑弹窗删除页签高度固定统一\n- 优化：免密模式下托盘菜单隐藏「锁定」选项\n- 优化：检查更新改用 JSON 解析竞速+8s 超时+源回退，修复 TUN 模式下检查失败\n- 优化：更新提示文案精简统一\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-07-05T12:03:03.143Z",
+  "version": "1.3.9",
+  "notes": "- 新增：搜索窗口连接行显示客户端与用户名（需解锁；不含密码），且可按账号搜索定位系统\n- 新增：搜索结果命中高亮；连接行显示收藏星标与颜色标签，与主列表视觉一致\n- 新增：搜索补齐匹配字段——负载均衡消息服务器地址、VPN 用户名\n- 新增：搜索窗口底部提示栏（键盘操作说明 + 当前命中数量）\n- 优化：搜索键盘导航选中项自动滚动跟随，不再滚出视野\n- 优化：窗口置顶快捷键改为 Alt+T（主窗口与搜索窗口统一，T=Top）\n- 修复：快捷键打开搜索窗口可能白屏卡死的问题（窗口创建移出快捷键回调线程）\n- 优化：设置「快捷键」区重排（搜索快捷键、显示快捷键、窗口位置）\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-07-05T16:13:55.928Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa1Aya2oyYlBXMGl6NWR5ZWFRRTM0M05tNGc2M2JocVFmUUU0K2IramkvYWFOZHJYNU5sY2FkVTcwVGtXUnY5SFE4cEJnWUdNSHhNM01GK1k1bWtjSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUyOTgwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy44X3g2NC1zZXR1cC5leGUKVk5jYW9LQWN2clRjRWpjNHF3ZHdId3VyL0R6YzRzbnNKTmJTZ1A0LzQzTVdrMU5Wb2hINGo2eE5KeTcrV0FBNkN1TmF3M3hSVEhQOURFd2dvdmZwQkE9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.8/SAPLoginManager_1.3.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01YZkJKeFFVRCtFZ2JrMGhOdDBpNlc3eFhQckNHM0RZQXZybTRjdkw2cDFpWmVhVENYMVdFY2NxZ1VzM29SUEJYUkNrVWxRcXBnbjdWYjdVbnlaTVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjY4MDMyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy45X3g2NC1zZXR1cC5leGUKeUR6OExjY3BRanowT2xKSDNTNy8wSVdsZ3VqQis0a256SW9HTE9zRUs3UlI0MCsveTdYbFRmV3l5QmxxK3NFRTUxa3RQRE9kcmlNMWExTFVaNkNQQVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.9/SAPLoginManager_1.3.9_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa1Aya2oyYlBXMGl6NWR5ZWFRRTM0M05tNGc2M2JocVFmUUU0K2IramkvYWFOZHJYNU5sY2FkVTcwVGtXUnY5SFE4cEJnWUdNSHhNM01GK1k1bWtjSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjUyOTgwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy44X3g2NC1zZXR1cC5leGUKVk5jYW9LQWN2clRjRWpjNHF3ZHdId3VyL0R6YzRzbnNKTmJTZ1A0LzQzTVdrMU5Wb2hINGo2eE5KeTcrV0FBNkN1TmF3M3hSVEhQOURFd2dvdmZwQkE9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.8/SAPLoginManager_1.3.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa01YZkJKeFFVRCtFZ2JrMGhOdDBpNlc3eFhQckNHM0RZQXZybTRjdkw2cDFpWmVhVENYMVdFY2NxZ1VzM29SUEJYUkNrVWxRcXBnbjdWYjdVbnlaTVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjY4MDMyCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy45X3g2NC1zZXR1cC5leGUKeUR6OExjY3BRanowT2xKSDNTNy8wSVdsZ3VqQis0a256SW9HTE9zRUs3UlI0MCsveTdYbFRmV3l5QmxxK3NFRTUxa3RQRE9kcmlNMWExTFVaNkNQQVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.9/SAPLoginManager_1.3.9_x64-setup.exe"
     }
   }
 }
