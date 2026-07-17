@@ -1,15 +1,15 @@
 {
-  "version": "1.3.13",
-  "notes": "- 修复：本机存在多个相同系统标识（SID）的连接（如多个 MEP、多个 ECP）时，登录可能连接到错误系统的问题，现已精确定位到所指定的服务器\n- 优化：卸载程序时勾选“删除应用数据”可正确清除本应用的数据目录\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-07-16T02:42:15.093Z",
+  "version": "1.4.0",
+  "notes": "- 新增：脚本添加支持多选文件、导入整个文件夹批量添加\n- 新增：文件夹同步可开启定期自动备份（每次启动 / 每天 / 每周）\n- 新增：VPN 可在分组维护一份共享默认，同组连接自动沿用（连接可单独覆盖），右键分组即可启动/打开/复制\n- 优化：全局快捷键唤出主窗口默认改为“上次位置”（原为跟随鼠标）\n- 修复：脚本右键菜单点“重命名”时光标未定位到输入框的问题\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-07-17T03:08:55.315Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa05Cd3hOSnRVNkxjaE1GVk5yd1NWRGtpNGpCZGtyYXoydTFBN1UyY3BTbDVMVXI1V09sR3haSmRxN3Y1a1dXc3BUSGhvSFpGRm83azFsZXVBZEdmVXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTY5NzMwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy4xM194NjQtc2V0dXAuZXhlCnJET3dkckhvQU10cFR2SHpHQUJOZzhSTzFabFBtRi9PdTR0cUxKOCsyTE9ObFd4bm5TZWRaKy9OVGdEOERtWlg4WWZsdHd0bWxmQk1nekpEOU5OU0RBPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.13/SAPLoginManager_1.3.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0gvdWpYbnFXaHYvbExrTzRuYW9zazJjRGlXazFFeGhySnB1TU1GbWFPN09uQU1VcXdKWVU0S09mK1pkVVVqTVVHWGUwS1JMSkk2S0ZQMjJuaGhHcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjU3NzMxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC4wX3g2NC1zZXR1cC5leGUKaEpOM1o2ZXF2YW9CSk10eGRmU0dsWWlSOURHSTBiREF3eFVicFg1VHBoejJSQmNTZWJxbU04RlNLdkRsS3RKQzBjUldIWHhPNXVSK3BaWGZZMjhiREE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.0/SAPLoginManager_1.4.0_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa05Cd3hOSnRVNkxjaE1GVk5yd1NWRGtpNGpCZGtyYXoydTFBN1UyY3BTbDVMVXI1V09sR3haSmRxN3Y1a1dXc3BUSGhvSFpGRm83azFsZXVBZEdmVXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTY5NzMwCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuMy4xM194NjQtc2V0dXAuZXhlCnJET3dkckhvQU10cFR2SHpHQUJOZzhSTzFabFBtRi9PdTR0cUxKOCsyTE9ObFd4bm5TZWRaKy9OVGdEOERtWlg4WWZsdHd0bWxmQk1nekpEOU5OU0RBPT0K",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.3.13/SAPLoginManager_1.3.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0gvdWpYbnFXaHYvbExrTzRuYW9zazJjRGlXazFFeGhySnB1TU1GbWFPN09uQU1VcXdKWVU0S09mK1pkVVVqTVVHWGUwS1JMSkk2S0ZQMjJuaGhHcWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjU3NzMxCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC4wX3g2NC1zZXR1cC5leGUKaEpOM1o2ZXF2YW9CSk10eGRmU0dsWWlSOURHSTBiREF3eFVicFg1VHBoejJSQmNTZWJxbU04RlNLdkRsS3RKQzBjUldIWHhPNXVSK3BaWGZZMjhiREE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.0/SAPLoginManager_1.4.0_x64-setup.exe"
     }
   }
 }
