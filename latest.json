@@ -1,15 +1,15 @@
 {
-  "version": "1.4.3",
-  "notes": "- 新增：脚本面板新增\"面板自启\"开关，解锁后自动重新打开常用的脚本面板\n- 优化：脚本执行时自动定位到目标系统的正确会话，避免连错系统；同一系统开多个窗口时，会优先在当前激活的那个窗口中执行\n- 优化：应用锁定时，已打开的脚本面板与脚本库窗口会自动隐藏，解锁后恢复，避免旁人看到连接和脚本信息\n- 优化：脚本面板/脚本库窗口默认置顶显示，新增\"重置窗口位置\"按钮应对多屏环境下窗口\"失踪\"，状态提示区域改为固定高度不再跳动\n\n升级安装不会影响已有配置和激活状态。",
-  "pub_date": "2026-07-24T08:08:46.943Z",
+  "version": "1.4.4",
+  "notes": "- 新增：密码输入框（SAP 连接密码、VPN 密码）新增随机密码生成按钮，支持随机密码/口令短语两种模式，结果可手动微调，一键使用后自动填充并复制到剪贴板，常用配置自动记住\n- 新增：设置中新增\"打开备份文件夹\"按钮\n- 新增：显示名称规则列表支持拖拽排序\n- 优化：【报表】类型改名为【程序】，术语与实际维护内容一致\n- 优化：显示名称规则在分组维护时改用演示数据预览，避免出现空白字段；已维护规则的行高更紧凑\n- 优化：VPN 搜索名提示文字简化为\"留空显示连接名\"\n- 修复：定期备份间隔设置无法保存的问题\n- 修复：事务码类型登录后操作的提示文案错误（多余的 `/n` 前缀会导致登录后报\"事务不存在\"）\n- 修复：显示名称规则模板中唯一字段为空时，残留孤立分隔符（如单独的右括号）的问题\n\n升级安装不会影响已有配置和激活状态。",
+  "pub_date": "2026-07-24T14:36:11.819Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0wyUkxrNCsvYWNuQm8xQ3ZkbjJQMGwzdmFkMzJudmY1N2pYR3l6L0tjK3oxWEMwMDBRSTRyQWhucFI4Zi9PdkRCTkxXZWc4anFxeUsrbnlWS1dmVlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODgwNTIzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC4zX3g2NC1zZXR1cC5leGUKOUVUeGlWOEZ4VzlaZWxDVlJJbDQ4T0JyZmY0NU5wT2JkYkIrT3gyNmloUkZvY1lqeDhCaGJRclZtb3B3dHh0ZVJkTDRaY1haQy9nYnVFL2kra1R0Qmc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.3/SAPLoginManager_1.4.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0pRYlBpR3diZHFhdUhubXl0UnpNOHpCdkZSWjhBMjJFcXZVcTNnVmcwZmRxcFFiN1Y4aEZOMWVXeDRvbExrV2dpbmZZY2NETWpiZVVCN2xYeDJST1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTAzNzY4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC40X3g2NC1zZXR1cC5leGUKVEdEb0p3dEtLMkphcTgrV2xCVE51MlVZU3BVUEp3RWcyUXJJYlE4UDRDZldMVHdtMlZkYWlvTTEvMnhSNE83NG0rekkwM2x4MFZVQzBJUVM3TFp0QVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.4/SAPLoginManager_1.4.4_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0wyUkxrNCsvYWNuQm8xQ3ZkbjJQMGwzdmFkMzJudmY1N2pYR3l6L0tjK3oxWEMwMDBRSTRyQWhucFI4Zi9PdkRCTkxXZWc4anFxeUsrbnlWS1dmVlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODgwNTIzCWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC4zX3g2NC1zZXR1cC5leGUKOUVUeGlWOEZ4VzlaZWxDVlJJbDQ4T0JyZmY0NU5wT2JkYkIrT3gyNmloUkZvY1lqeDhCaGJRclZtb3B3dHh0ZVJkTDRaY1haQy9nYnVFL2kra1R0Qmc9PQo=",
-      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.3/SAPLoginManager_1.4.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZC9qay9zeU5qa0pRYlBpR3diZHFhdUhubXl0UnpNOHpCdkZSWjhBMjJFcXZVcTNnVmcwZmRxcFFiN1Y4aEZOMWVXeDRvbExrV2dpbmZZY2NETWpiZVVCN2xYeDJST1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTAzNzY4CWZpbGU6U0FQTG9naW5NYW5hZ2VyXzEuNC40X3g2NC1zZXR1cC5leGUKVEdEb0p3dEtLMkphcTgrV2xCVE51MlVZU3BVUEp3RWcyUXJJYlE4UDRDZldMVHdtMlZkYWlvTTEvMnhSNE83NG0rekkwM2x4MFZVQzBJUVM3TFp0QVE9PQo=",
+      "url": "https://github.com/Oswin0213/SAPLoginManager-Updates/releases/download/v1.4.4/SAPLoginManager_1.4.4_x64-setup.exe"
     }
   }
 }
